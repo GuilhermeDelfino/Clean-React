@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GuilhermeDelfino/Clean-React/issues"
   },
-  "homepage": "https://github.com/GuilhermeDelfino/Clean-React#readme"
+  "homepage": "https://github.com/GuilhermeDelfino/Clean-React#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.5.0"
+  }
 }
