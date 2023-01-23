@@ -7,7 +7,7 @@ const config = {
 	coverageDirectory: 'coverage',
 	testEnvironment: 'jsdom',
 	transform: {
-		'.+\\.ts$': 'ts-jest'
+		'.+\\.(ts|tsx)$': 'ts-jest'
 	},
 	moduleNameMapper: {
 		'@data(.*)': '<rootDir>/src/data/$1',
