@@ -14,7 +14,11 @@
     "noEmit": true,
     "isolatedModules": false,
     "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+        "@data/*": ["./data/*"],
+        "@domain/*": ["./domain/*"],
+    }
   },
   "include": ["src"]
 }
